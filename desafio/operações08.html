@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo</title>
+</head>
+<body>
+    <h1>Escolha 2 números e uma operação</h1>
+
+    <form action="http://localhost:8080" method="get">
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="value-1">Valor 1</label>
+                <input type="number" name="valueone">
+            </p>
+
+            <p>
+                <label for="value-2">Valor 2</label>
+                <input type="number" name="valuetwo">
+            </p>
+
+            <p>
+                <label for="operation">Operação</label>
+                <select name="select" id="select">
+                    <option value="soma">Soma</option>
+                    <option value="subtração">Subtração</option>
+                    <option value="multiplicação">Multiplicação</option>
+                    <option value="divisão">Divisão</option>
+                </select>
+            </p>
+
+            <p><input type="submit" value="Calcular"></p>
+        </fieldset>
+    </form>
+</body>
+</html>

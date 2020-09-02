@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 01</title>
+</head>
+<body>
+    <h1>Revisão js</h1>
+    <p>Construir um script que chame uma função que lea um número, calcule e imprima o seu triplo</p>
+    <input id="number" type="text">
+    <button onclick="triple()">Triplo</button>
+    <p id="resultado"></p>
+
+    <script>
+        function triple() {
+            x = document.querySelector('input#number').value
+            resultado = document.querySelector('p#resultado')
+            soma = x * 3
+            //document.write(`O triplo de ${x} é ${soma}`)
+            resultado.innerHTML = `O triplo de ${x} é ${soma}`
+        }
+    </script>
+</body>
+</html>
