@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula DADM</title>
+</head>
+<body>
+    <h1>Desenvolvimento web</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minima natus architecto facilis cupiditate! Ab rerum at suscipit quibusdam! Asperiores consectetur sit sint dolor possimus illum exercitationem cum, reprehenderit temporibus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus voluptas, reiciendis facere nobis doloremque neque dicta iure aliquam, expedita sapiente unde blanditiis optio veniam suscipit molestias tempora vel deserunt. Quis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aut, officiis quod ratione sapiente fugiat ut laudantium, ipsam optio a magnam suscipit? Beatae nemo perferendis tenetur mollitia similique labore repudiandae!</p>
+</body>
+</html>
